@@ -1,6 +1,6 @@
 const {
-  createBook
+  createBook,getAllBooks,getBookById,deleteBookById,updateBookById,searchBooks
 } = require("./bookStoreController");
 module.exports = {
-  createBook
+  createBook,getAllBooks,getBookById,deleteBookById,updateBookById,searchBooks
 };

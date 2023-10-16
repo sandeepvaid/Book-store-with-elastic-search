@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 //Connect to database
-mongoose.connect("mongodb://0.0.0.0:27017/node-express-rest-api");
+mongoose.connect("mongodb://0.0.0.0:27017/book-store");
 
 //acquire connection to check if connection is succeessfull
 const db = mongoose.connection;
